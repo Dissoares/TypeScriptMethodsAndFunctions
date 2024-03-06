@@ -53,3 +53,10 @@ console.log("💡==>retorno:", retorno);
 // usando operador ternário para comparar valores
 let operadorTernario = (a > b) ? "Maior" : "Menor";
 console.log("💡 ==>  operadorTernario:", operadorTernario)
+
+// ==> usando arrow function para receber parâmetros e verificar se é ímpar ou par
+let numero = 43;
+let parOuImpar = (numero) => {    
+  return (numero % 2 === 0) ? "Par" : "Impar";
+}
+console.log("💡 ==>:", parOuImpar(numero))
