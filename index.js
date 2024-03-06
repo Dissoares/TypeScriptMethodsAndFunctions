@@ -22,3 +22,14 @@ for (i = 0; i <= IniciandoArray; i++) {
     }
   }
 }
+
+//convertendo string em inteiro
+let valorString = '100';
+let converterParaNumero = Number(valorString);
+console.log(typeof converterParaNumero);
+console.log("💡 ==> converterParaNumero:", converterParaNumero)
+
+//convertendo inteiro para string
+let converterParaString = String(converterParaNumero);
+console.log(typeof converterParaString);
+console.log("💡 ==> converterParaString:", converterParaString)
