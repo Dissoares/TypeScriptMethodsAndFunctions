@@ -11,6 +11,7 @@ if (IniciandoArray >= 18 && IniciandoArray <= 20) {
   console.log("Acesso negado para", IniciandoArray);
 }
 
+//iniciando condição com for, adcionando e removendo itens de um array com .push(item) e .pop(item)
 for (i = 0; i <= IniciandoArray; i++) {
   array.push(i); // <== adicionando cada item na ultima posicação do array
   console.log("💡 ==>:", array);
