@@ -1,6 +1,5 @@
-const IniciandoArray = 5; 
+const IniciandoArray = 5;
 let array = [];
-
 
 //iniciando condição com if e else
 if (IniciandoArray >= 18 && IniciandoArray <= 20) {
@@ -24,18 +23,29 @@ for (i = 0; i <= IniciandoArray; i++) {
 }
 
 //convertendo string em inteiro
-let valorString = '100';
+let valorString = "100";
 let converterParaNumero = Number(valorString);
 console.log(typeof converterParaNumero);
-console.log("💡 ==> converterParaNumero:", converterParaNumero)
+console.log("💡 ==> converterParaNumero:", converterParaNumero);
 
 //convertendo inteiro para string
 let converterParaString = String(converterParaNumero);
 console.log(typeof converterParaString);
-console.log("💡 ==> converterParaString:", converterParaString)
-
+console.log("💡 ==> converterParaString:", converterParaString);
 
 // convertendo e formatando salario com .toFixed()
-let salario = '10.0000870';
-let salarioConvertido = Number(salario)
-console.log("💡 ==> Convertido: R$",salarioConvertido.toFixed(3))
+let salario = "10.0000870";
+let salarioConvertido = Number(salario);
+console.log("💡 ==> Convertido: R$", salarioConvertido.toFixed(3));
+
+
+// usando função para receber parâmetros e retornar o valor
+let a = 43;
+let b = 57;
+let retorno;
+
+function soma(a, b) {
+  return (retorno = a + b);
+}
+console.log("💡==>", soma(a, b));
+console.log("💡==>retorno:", retorno);
