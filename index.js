@@ -1,6 +1,8 @@
 const IniciandoArray = 5;
 let array = [];
 
+
+//iniciando condição com if e else
 if (IniciandoArray >= 18 && IniciandoArray <= 20) {
   console.log("Acesso liberado!");
 } else if (IniciandoArray >= 41 && IniciandoArray <= 60) {
