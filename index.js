@@ -49,3 +49,7 @@ function soma(a, b) {
 }
 console.log("💡==>", soma(a, b));
 console.log("💡==>retorno:", retorno);
+
+// usando operador ternário para comparar valores
+let operadorTernario = (a > b) ? "Maior" : "Menor";
+console.log("💡 ==>  operadorTernario:", operadorTernario)
